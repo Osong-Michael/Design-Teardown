@@ -68,7 +68,6 @@ nav {
 .navbar__links a {
     color: white;
     text-decoration: none;
-    font-family: mija;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -88,4 +87,109 @@ nav {
     width: 100px;
     height: 50px;
     margin-top: 8px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.gradient__1 {
+  width: 100%;
+  content: "";
+  background: linear-gradient(90deg, #919294 50%, #adafb3 50%);
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+}
+
+.gradient__1--2 {
+  background: linear-gradient(90deg, #636363 50%, #757474 50%);
+}
+
+.gradient__1--header > h1 {
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.gradient__1--header > h2 {
+  width: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gradient__1--elt {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  position: absolute;
+  top: 15px;
+  left: 1050px;
+}
+
+.gradient__1--empty {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  content: "";
+  background-color: white;
+  transform: rotate(165deg);
+}
+
+.gradient__1--elt > button {
+  border-radius: 10px;
+  height: 40px;
+  background: none;
+  width: 170px;
+  margin-top: 10px;
+  border: 1px solid whitesmoke;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.gradient__1--text {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.gradient__1--text--special {
+  display: flex;
+}
+
+.gradient__1--text--special > p {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: whitesmoke;
+}
+
+.wrote-style {
+  font-family: 'Courgette', cursive;
+}
+
+.gradient__1--text--1 {
+  margin-left: 35px;
+  line-height: 50px;
+}
+
+.gradient__1--text--1_bold {
+  margin-top: 30px;
+  width: 70%;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+
+.gradient__1--text--1_bold span {
+  font-size: 16px;
 }
