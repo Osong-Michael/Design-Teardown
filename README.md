@@ -4,8 +4,8 @@
 
 Screenshot of Page
 
-![screenshot 1](screen1.png) 
-![screenshot 2](screen2.png) 
+![screenshot 1](screen1.PNG) 
+![screenshot 2](screen2.PNG) 
 
 > To achieve this output we had to create a gray-scale "heat map" of sections of the page that indicate
   which elements have the greatest weight in the visual hierachy.
