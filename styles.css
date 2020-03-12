@@ -227,7 +227,7 @@ nav {
   height: 50px;
   border-radius: 6px;
   content: "";
-  background-color: white;
+  background-color: #222423;
   transform: rotate(165deg);
 }
 
@@ -410,7 +410,8 @@ nav {
   width: 65%;
   height: 250px;
   content: "";
-  background: #595c5b;
+  background: #222423;
+  border-radius: 10px;
   margin: 40px auto 40px auto;
 }
 
@@ -424,7 +425,7 @@ nav {
   height: 250px;
   width: 250px;
   content: "";
-  background: #595c5b;
+  background: #222423;
   border-radius: 10px;
   transform: rotate(165deg);
   margin-top: 15px;
@@ -444,4 +445,54 @@ nav {
 .seventh__section--text_p {
   line-height: 20px;
   font-size: 20px;
+}
+
+.grid__2 {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.grid__2__container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 70px;
+}
+
+.grid__2--item {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  color: white;
+}
+
+.grid__2--item_empty {
+  height: 60px;
+  width: 60px;
+  content: "";
+  background: #222423;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  transform: rotate(165deg);
+}
+
+.grid__2--item_text {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.grid__2--item_text-h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.grid__2--item_text-h1 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.grid__2--item_text-p {
+  font-size: 19px;
+  line-height: 22px;
 }
