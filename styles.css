@@ -413,3 +413,35 @@ nav {
   background: #595c5b;
   margin: 40px auto 40px auto;
 }
+
+.seventh__section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.seventh__section--empty_div {
+  height: 250px;
+  width: 250px;
+  content: "";
+  background: #595c5b;
+  border-radius: 10px;
+  transform: rotate(165deg);
+  margin-top: 15px;
+}
+
+.seventh__section--text {
+  width: 60%;
+  color: white;
+}
+
+.seventh__section--text_h2 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.seventh__section--text_p {
+  line-height: 20px;
+  font-size: 20px;
+}
