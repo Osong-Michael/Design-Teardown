@@ -112,11 +112,6 @@ body {
   background: rgb(190, 187, 187);
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
 blockquote,
 q {
   quotes: none;
@@ -314,13 +309,12 @@ nav {
   line-height: 30px;
 }
 
-.grid__1--item i {
+.arrows {
+  display: flex;
+  justify-content: space-around;
   color: white;
-  margin-top: 100px;
-}
+  margin-top: 50px;
 
-.grid__1--item-lasti {
-  margin-top: 35px;
 }
 
 .grid__1--item-1 {
@@ -495,4 +489,53 @@ nav {
 .grid__2--item_text-p {
   font-size: 19px;
   line-height: 22px;
+}
+
+.nineth__section--container {
+  position: relative;
+}
+
+.nineth__section--designsyt {
+  padding: 50px;
+  background: rgb(43, 42, 42);
+  height: 200px;
+}
+
+.nineth__section--designsyt-empty {
+  width: 200px;
+  height: 350px;
+  border: 1px solid rgb(32, 32, 32);
+  background: rgb(70, 69, 69);
+  transform: rotate(165deg);
+  position: absolute;
+  top: 0;
+  left: 70%;
+}
+
+.nineth__section--designsyt-txt {
+  width: 65%;
+  color: white;
+}
+
+.nineth__section--designsyt-txt h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nineth__section--designsyt-txt p {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.grid__1--item--List__items {
+  line-height: 50px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.grid__1--item--title {
+  text-decoration: none;
 }
