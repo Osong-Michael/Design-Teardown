@@ -139,6 +139,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  list-style: none;
 }
 
 .navbar__links {
