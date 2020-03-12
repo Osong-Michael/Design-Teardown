@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Zilla Slab', serif;
+  background: rgb(190, 187, 187);
 }
 ol, ul {
   list-style: none;
@@ -192,4 +193,88 @@ nav {
 
 .gradient__1--text--1_bold span {
   font-size: 16px;
+}
+
+.grid__1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: rgb(190, 187, 187);
+  margin-top: 50px;
+}
+
+.grid__1--item {
+  padding: 20px;
+}
+
+.grid__1--item small {
+  color: white;
+}
+
+.grid__1--item h2 {
+  padding-top: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.grid__1--item p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.grid__item--p2 {
+   line-height: 30px;
+}
+
+.grid__1--item i {
+  color: white;
+  margin-top: 100px;
+}
+
+#grid__1--item-lasti {
+  margin-top: 35px;
+}
+
+.grid__1--item-1 {
+  border: 1px solid rgb(59, 58, 58);
+  background:  rgb(59, 58, 58);
+  border-radius: 5px;
+  margin-left: 40px;
+  text-align: center;
+  width: 80%;
+}
+
+.grid__1--item--darkcircle {
+  height: 100px;
+  width: 100px;
+  content: "";
+  background: whitesmoke;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#grid__1--item__1--h2 {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.grid__1--item--btn {
+  width: 300px;
+  height: 50px;
+  background: white;
+  color: rgb(23, 23, 218);
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid__1--lastdiv {
+  margin: 60px auto ;
+  width: 18%;
+  border-bottom: 4px solid rgb(43, 42, 42);
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 10px;
 }
