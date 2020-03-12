@@ -86,8 +86,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -314,7 +312,6 @@ nav {
   justify-content: space-around;
   color: white;
   margin-top: 50px;
-
 }
 
 .grid__1--item-1 {
